@@ -1,0 +1,44 @@
+{
+  "name": "McLauncherNode",
+  "version": "0.0.1",
+  "description": "基于Node.js开发的Minecraft启动器核心",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "gulp",
+    "watch": "gulp watch"
+  },
+  "keywords": [
+    "McLauncherNode",
+    "McLauncher",
+    "minecraft launcher node",
+    "minecraft",
+    "mc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/52mc/McLauncherNode.git"
+  },
+  "author": "eeve",
+  "devDependencies": {
+    "adm-zip": "^0.4.7",
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "bluebird": "^3.4.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-uglify": "^1.5.4",
+    "gulp-util": "^3.0.7",
+    "json-loader": "^0.5.4",
+    "lodash": "^4.13.1",
+    "mkdirp": "^0.5.1",
+    "node-fetch": "^1.5.3",
+    "node-uuid": "^1.4.7",
+    "request": "^2.74.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {}
+}
