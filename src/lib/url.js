@@ -1,7 +1,6 @@
 const cdn = 'http://7xwoig.com1.z0.glb.clouddn.com';
 
-const manifest =
-  `https://launchermeta.mojang.com/mc/game/version_manifest.json`;
+const manifest = `https://launchermeta.mojang.com/mc/game/version_manifest.json`;
 const client = `${cdn}/versions/<version>.jar`;
 const versions = `${cdn}/versions/list.json`;
 const libraries = 'https://libraries.minecraft.net';
@@ -9,8 +8,7 @@ const librariesCN = `${cdn}/libraries`;
 const assetsCDN = `${cdn}/assets/<index>/<hash>`;
 const assetsJsonCDN = `${cdn}/assets/<key>.json`;
 
-const forgeLibraries =
-  'https://raw.githubusercontent.com/MinecraftForge/MinecraftForge/1.10.x/jsons/<version>-rel.json';
+const forgeLibraries = 'https://raw.githubusercontent.com/MinecraftForge/MinecraftForge/1.10.x/jsons/<version>-rel.json';
 
 module.exports = {
 

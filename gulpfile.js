@@ -1,7 +1,6 @@
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var webpack = require('webpack');
-var less = require('gulp-less');
 var uglify = require('gulp-uglify');
 var babel = require('gulp-babel');
 
